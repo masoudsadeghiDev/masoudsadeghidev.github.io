@@ -8,15 +8,21 @@ const About: React.FC = () => {
   return (
     <AboutWrapper data-testid="about">
       <p>
-        Hi, my name is <HighlightSpan>Sat Naing</HighlightSpan>!
+        Hi, my name is <HighlightSpan>Masoud Sadeghi</HighlightSpan>!
       </p>
       <p>
-        I'm <HighlightAlt>a full-stack developer</HighlightAlt> based in Yangon,
-        Myanmar.
+        I'm a <HighlightAlt>Backend Developer </HighlightAlt>with a focus on building scalable and efficient systems using<HighlightAlt> Java</HighlightAlt>.
+        <br />
+        <br />
+        My expertise lies in working with:
+        <br />
+        <br />
       </p>
       <p>
-        I am passionate about writing codes and <br />
-        developing web applications to solve real-life challenges.
+          SQL (PostgreSQL, MySQL)<br />
+          NoSQL (MongoDB, Redis) <br />
+          Message Brokers (RabbitMQ, Kafka)<br />
+          Spring Boot for microservices architecture<br />
       </p>
     </AboutWrapper>
   );
