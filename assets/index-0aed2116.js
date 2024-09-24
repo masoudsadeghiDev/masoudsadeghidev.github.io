@@ -253,22 +253,20 @@ function print() { __p += __j.call(arguments, '') }
   &:hover {
     border-bottom-style: solid;
   }
-`;const UP=()=>L.jsxs($P,{"data-testid":"welcome",children:[L.jsxs("div",{className:"info-section",children:[L.jsx(zP,{children:`
- _____ ______   ________  ________  ________  ___  ___  ________     
-|   _   _   |   __  |   ____|   __  |  |  |   ___     
-   \\__      |     ___|   |     \\     _|    
-    \\|__|       __   _____     \\     \\      \\   
-                  |____|     \\     \\     _\\  
-    __     __ __ _______   _______ _______ _______    |__|     |__||__||__|_________|_______||_______||_______|
-
+`;const UP=()=>L.jsxs($P,{"data-testid":"welcome",children:[L.jsxs("div",{className:"info-section",children:[L.jsx(zP,{children:`        
+______  ___                          _________
+___   |/  /_____ _________________  _______  /
+__  /|_/ /_  __ /_  ___/  __   / / /  __  / 
+_  /  / / / /_/ /_(__  )/ /_/ / /_/ // /_/ /  
+/_/  /_/  __,_/ /____/ ____/__,_/ __,_/ 
           `}),L.jsx(MP,{children:L.jsx(DP,{children:`
- _____ ______   ________  ________  ________  ___  ___  ________     
-|   _   _   |   __  |   ____|   __  |  |  |   ___     
-   \\__      |     ___|   |     \\     _|    
-    \\|__|       __   _____     \\     \\      \\   
-                  |____|     \\     \\     _\\  
-    __     __ __ _______   _______ _______ _______    |__|     |__||__||__|_________|_______||_______||_______|            
-            `})}),L.jsx("div",{children:"Hi there, I'm Masoud 👋"}),L.jsx(lm,{children:"----"}),L.jsx("div",{children:"Backend developer specializing in Java, with a keen interest in Go and algorithms."}),L.jsx(lm,{children:"----"}),L.jsxs("div",{children:["For a list of available commands, type `",L.jsx(FP,{children:"help"}),"`."]})]}),L.jsx("div",{className:"illu-section"})]}),jP=()=>{const{history:e,index:t}=te.useContext(Yn),n=ke.reverse(ke.slice(e,t));return L.jsx(ho,{"data-testid":"history",children:n.map(o=>L.jsx("div",{children:o},ke.uniqueId(`${o}_`)))})},WP=ge.div`
+______  ___                          _________
+___   |/  /_____ _________________  _______  /
+__  /|_/ /_  __ /_  ___/  __   / / /  __  / 
+_  /  / / / /_/ /_(__  )/ /_/ / /_/ // /_/ /  
+/_/  /_/  __,_/ /____/ ____/__,_/ __,_/  
+ 
+          `})}),L.jsx("div",{children:"Hi there, I'm Masoud 👋"}),L.jsx(lm,{children:"----"}),L.jsx("div",{children:"Backend developer specializing in Java, with a keen interest in Go and algorithms."}),L.jsx(lm,{children:"----"}),L.jsxs("div",{children:["For a list of available commands, type `",L.jsx(FP,{children:"help"}),"`."]})]}),L.jsx("div",{className:"illu-section"})]}),jP=()=>{const{history:e,index:t}=te.useContext(Yn),n=ke.reverse(ke.slice(e,t));return L.jsx(ho,{"data-testid":"history",children:n.map(o=>L.jsx("div",{children:o},ke.uniqueId(`${o}_`)))})},WP=ge.div`
   margin-top: 0.5rem;
   margin-bottom: 0.875rem;
 `,b1=ge.div`
